@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    font-family: EuclidCircularB,helvetica,arial,sans-serif;
+}
+.navbar{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px dashed #e5e5e5;
+    border-radius: 5px;
+}
+a.navbar{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-style: none;
+}
+.header{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px dashed #e5e5e5;
+}
+.photo{
+    max-width: 250px;
+    max-height: 250px;
+}
+.pp{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.info-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.info{
+    width: auto;
+    height: auto;
+}
+.links{
+
+}
+.links div{
+    display: inline;
+}
+.links div a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.links a i{
+    transition: 0.5s all;
+}
+.links a:hover > i{
+    transform: scale(1.6) rotate(360deg);
+}
+.content{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px dashed #e5e5e5;
+}
+.contact{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px dashed #e5e5e5;
+}
+.footer{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px dashed #e5e5e5;
+    border-radius: 5px;
+}
