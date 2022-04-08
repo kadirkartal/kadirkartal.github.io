@@ -2,6 +2,8 @@ body{
     background-color: white;
     font-family: EuclidCircularB,helvetica,arial,sans-serif;
 }
+
+/* Navbar */
 .navbar{
     width: 50%;
     height: 100%;
@@ -17,6 +19,8 @@ a.navbar{
     text-decoration: none;
     border-style: none;
 }
+
+/* Header */
 .header{
     width: 50%;
     height: 100%;
@@ -34,8 +38,8 @@ a.navbar{
     max-height: 250px;
 }
 .pp{
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
     border-radius: 100%;
 }
 .info-wrapper{
@@ -68,6 +72,8 @@ a.navbar{
 .links a:hover > i{
     transform: scale(1.6) rotate(360deg);
 }
+
+/* Content */
 .content{
     width: 50%;
     height: 100%;
@@ -80,6 +86,8 @@ h2{
     display: inline-block;
     border-bottom: 2px solid #e5e5e5;
 }
+
+/* Contact */
 #contact{
     width: 50%;
     height: 100%;
@@ -145,6 +153,8 @@ input[type="submit"]{
 #success{
     color: #28A745;
 }
+
+/* Footer */
 .footer{
     width: 50%;
     height: 100%;
@@ -154,4 +164,64 @@ input[type="submit"]{
     text-align: center;
     border: 2px dashed #e5e5e5;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    /* Navbar */
+    .navbar{
+        width: 100%;
+        padding: 0px;
+    }
+    .navbar a{
+        margin: 10px;
+    }
+    
+    .header{
+        width: 100%;
+        display: block;
+        padding: 0px;
+    }
+    .photo{
+        max-width: 150px;
+        max-height: 150px;
+        display: inline-block;
+        margin: 10px;
+        padding: 0px;  
+        justify-content: center;
+        align-items: center;
+
+    }
+    .pp{
+        max-width: 150px;
+        max-height: 150px;
+        padding: 0px;
+    }
+
+    .info-wrapper{
+        display: block;
+    }
+    .info{
+        margin: 30px;
+    }
+    .links div a{
+        margin-bottom: 10px;
+    }
+    
+    .content{
+        width: 100%;
+        padding: 0px;
+    }
+    .content h2{
+        margin-left: 10px;
+    }
+    
+    #contact{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .footer{
+        width: 100%;
+        padding: 0px;
+    }
 }
